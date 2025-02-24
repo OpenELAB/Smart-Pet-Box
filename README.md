@@ -129,13 +129,13 @@ void mqttIntervalPost(float temperature, float humidity, int co2, int lightValue
 
 ---
 
-##📝 Notes and Common Issues
+## 📝 Notes and Common Issues
 - **Sensor Initialization**: The SCD40 CO2 sensor may take approximately 6 seconds to initialize and provide accurate readings.
 - **I2C Bus Speed**: The MLX90614 sensor requires the I2C bus speed to be set to 100kHz to work correctly.
 - **Device Conflicts**: Ensure that PaHub and PbHub modules have unique I2C addresses to prevent conflicts.
 - **Cloud Data Reception**: Ensure a stable connection and check MQTT settings if data isn’t received on the cloud platform.
 
-##🚀 Future Outlook
+## 🚀 Future Outlook
 - **Adding More Sensors**: Integrating additional sensors like PM2.5 or gas sensors to further enhance the pet box’s monitoring capabilities.
 - **Optimizing Control Algorithms**: Improving the temperature and humidity control algorithms to make the pet box more intelligent and adaptable to changing conditions.
 
