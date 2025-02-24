@@ -125,6 +125,7 @@ void mqttIntervalPost(float temperature, float humidity, int co2, int lightValue
     sprintf(param, "{\"temperature\":%0.2f, \"humidity\":%0.2f, \"co2\":%d, \"lightValueAnalog\":%d}", temperature, humidity, co2, lightValueAnalog);
     client.publish(ALINK_TOPIC_PROP_POST, param);
 }
+```
 
 ---
 
@@ -137,3 +138,4 @@ void mqttIntervalPost(float temperature, float humidity, int co2, int lightValue
 ##🚀 Future Outlook
 - **Adding More Sensors**: Integrating additional sensors like PM2.5 or gas sensors to further enhance the pet box’s monitoring capabilities.
 - **Optimizing Control Algorithms**: Improving the temperature and humidity control algorithms to make the pet box more intelligent and adaptable to changing conditions.
+
