@@ -20,16 +20,6 @@ const char* clientId = "a1Zs299lJym.Carl|securemode=2,signmethod=hmacsha256,time
 #define PRODUCT_KEY       "a1Zs299lJym"
 #define DEVICE_NAME       "Carl"
 
-/*  China debug  */ 
-// const char* mqttHostUrl = "a1Zs299lJym.iot-as-mqtt.cn-shanghai.aliyuncs.com";
-// const int mqttPort =1883; 
-// const char* mqttUser = "ABCD&a1Zs299lJym";//username
-// const char* mqttPassword = "2c7b3123a18fe8cb111f74024ebe67862c3ef24f26e3bade727dde5d048da4ca";
-// const char* clientId = "a1Zs299lJym.ABCD|securemode=2,signmethod=hmacsha256,timestamp=1738806840309|" ;
-
-// #define PRODUCT_KEY       "a1Zs299lJym"
-// #define DEVICE_NAME       "ABCD"
-
 
 #define ALINK_BODY_FORMAT         "{\"id\":\"level\",\"version\":\"1.0\",\"method\":\"thing.event.property.post\",\"params\":%s}"
 #define ALINK_TOPIC_PROP_POST     "/sys/" PRODUCT_KEY "/" DEVICE_NAME "/thing/event/property/post"
